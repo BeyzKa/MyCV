@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .full {
+        width: 50%;
+        max-width: 1000px;
+        min-height: 800px;
+        background-color: rgb(154, 118, 127);
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2px ;
+}
+        body { 
+            background-color: rgb(246, 246, 246);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .left {
+            width:100% ;
+            background-color:rgb(207, 183, 188) ;
+            padding: 40px;
+        }   
+        .right {
+            
+            width:100% ;
+            background-color:rgb(239, 209, 215) ;
+            padding: 40px;
+        }
+
+        
+        .Contact,
+        .Skills,
+        .Language,
+        .Hobbies,
+        .title,
+        .Summary,
+        .Experience,
+        .Education
+        {
+          margin-bottom: 30px;
+        }
+        .image {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color:rgb(43, 37, 38);
+            font-size: 40px;
+            margin-bottom: 45px;
+        }
+        h2 {
+            color: rgb(43, 37, 38);
+            font-size: 15px;
+        }
+         p {
+            margin-top: 15px;
+            color: rgb(43, 37, 38);
+         }
+         p1{
+            color: rgb(63, 54, 56);
+         }
+         ul{
+            margin-top: 15px;
+         }
+         th  {
+            color:rgb(43, 37, 38);
+            padding: 15px 10px ;
+            text-align: left;
+        }
+        td {
+            color: rgb(63, 54, 56);
+            padding: 15px 10px ;
+            text-align: left;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="full">
+    <div class="left">
+         <div class="Contact">
+            <h1> Beyza Kaya </h1>
+            <p>
+                <b>Email :</b> kaya3beyza4@gmail.com
+            </p>
+            <p1>
+                <b>Mobile no :</b> 545 814 07 40
+            </p1>
+        </div>
+        <div class="Summary">
+            <h2> SUMMARY </h2>
+            <p>
+                I am a dedicated computer engineer with
+                a strong inclination for mathematical and
+                analytical problem-solving. Good at
+                facing challenges, I continuously strive to
+                learn and innovate. Eager to contribute
+                my skills to dynamic projects within the
+                evolving landscape of technology.
+            </p>
+        </div>
+        <div class="Skills">
+        <h2> SKILLS</h2>
+        <ul>
+            <li> Java </li>
+            <li>C </li>
+            <li>Python</li>
+            <li>Digital Logic Design</li>
+        </ul>
+        </div>
+        <div class="Language">
+            <h2> LANGUAGE </h2>
+            <ul>
+                <li>English</li>
+            </ul>
+        </div>
+        <div class="Hobbies">
+            <h2> HOBBIES</h2> 
+            <ul>
+                <li> Drawing </li>
+                <li>Playing the ukulele</li>
+                <li>Reading books</li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="image">
+            <img src="https://media.licdn.com/dms/image/D4D03AQHRXwqLeWgkHw/profile-displayphoto-shrink_400_400/0/1707507829799?e=1717027200&v=beta&t=sFIhxXRA0WN6AZeLS1L_C3qKY_gbLu63rJ2qkr5nVsk"
+                alt="CVfoto"
+                style=" border-radius: 10%; width: 188px; height: 250px;" >
+        </div>
+        <div class="Education">
+            <h2> EDUCATION </h2>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>University / High School </th>
+                </tr>
+                <tr>
+                    <td> 2018-2022 </td>
+                    <td>İhlas College Science High School </td>
+                </tr>
+                <tr>
+                    <td> 2022- </td>
+                    <td>İstanbul Medipol University
+                        Computer Engineering
+                        2nd Grade </td>
+                </tr>
+            </table>
+        </div>
+        <div class="Experience">
+            <h2>EXPERIENCE</h2>
+            <table>
+                <tr>
+                    <td> 2018 </td>
+                    <td>FSM International Model UN Delegate</td>
+                </tr>
+                <tr>
+                    <td> 2019</td>
+                    <td>Sobil Model United Nations Conference Delegate</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
